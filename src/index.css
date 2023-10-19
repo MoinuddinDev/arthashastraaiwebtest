@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.tab-container {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the tab */
+.tab-container button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of active on hover */
+.tab-container button:hover {
+  background-color: #ddd;
+}
+
+/* active tab css*/
+.tab-container button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  
+  padding-top: 5px;
+  -webkit-animation: fadeAnimation 1s;
+  animation: fadeAnimation 1s;
+}
+
+/* table css */
+.table-wrapper {
+  width: 100%;
+  /* max-width: 500px; */
+  overflow-x: auto;
+  /* border-collapse: collapse; */
+}
+table {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+tbody tr:hover {
+  background-color: #f5f5f5;
+}
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeAnimation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fadeAnimation {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
