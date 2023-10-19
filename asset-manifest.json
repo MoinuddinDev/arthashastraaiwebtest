@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.f777d739.css",
-    "main.js": "/react-gh-pages/static/js/main.94793f13.js",
-    "static/js/787.48e2f839.chunk.js": "/react-gh-pages/static/js/787.48e2f839.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.f777d739.css.map": "/react-gh-pages/static/css/main.f777d739.css.map",
-    "main.94793f13.js.map": "/react-gh-pages/static/js/main.94793f13.js.map",
-    "787.48e2f839.chunk.js.map": "/react-gh-pages/static/js/787.48e2f839.chunk.js.map"
+    "main.css": "/arthashastraaiwebtest/static/css/main.f777d739.css",
+    "main.js": "/arthashastraaiwebtest/static/js/main.2ffb4bb4.js",
+    "static/js/787.48e2f839.chunk.js": "/arthashastraaiwebtest/static/js/787.48e2f839.chunk.js",
+    "index.html": "/arthashastraaiwebtest/index.html",
+    "main.f777d739.css.map": "/arthashastraaiwebtest/static/css/main.f777d739.css.map",
+    "main.2ffb4bb4.js.map": "/arthashastraaiwebtest/static/js/main.2ffb4bb4.js.map",
+    "787.48e2f839.chunk.js.map": "/arthashastraaiwebtest/static/js/787.48e2f839.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f777d739.css",
-    "static/js/main.94793f13.js"
+    "static/js/main.2ffb4bb4.js"
   ]
 }
